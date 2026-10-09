@@ -32,10 +32,26 @@ $\mathcal{O}(\sum_{i=0}^{n-1}i) = \mathcal{O}(\frac{n(n-1)}{2}) = \mathcal{O}(\f
 |       100 | 21598ns     |
 |      1000 | 1873584ns   |
 |     10000 | 207217\mu{}s    |
-|    100000 | 1873584\mu{}s   |
+|    100000 | 17967915\mu{}s  |
 |   1000000 | >1.5h       |
 |  10000000 | >1.5h       |
 |-----------+-------------|
+* Како да се компајлира
+Потребно е cmake со верзија поголема или еднаква на 3.15 и компајлер за c++ 14 или понова верзија
+
+командиве да се извршат внатре во папката =domasna2_gnome=
+
+#+begin_src bash
+  cmake -S . -B build
+  cmake --build build
+  #+end_src
+
+потоа за да се изврши main.cpp или time_benchmarks.cpp
+#+begin_src bash
+  ./build/time_benchmarks.cpp
+  ./build/main
+  #+end_src
+
 * Пример за Gnome Sort на низа од 5 елементи
 
 0. чекор
