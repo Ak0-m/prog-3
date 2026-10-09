@@ -20,9 +20,9 @@ $\mathcal{O}(\sum_{i=0}^{n-1}i) = \mathcal{O}(\frac{n(n-1)}{2}) = \mathcal{O}(\f
 ## Време потребно да се сортира низа со n елементи (in nanoseconds):
 
 Спецификации на компјутер на кој се правени овие benchmarks:
--OS: Fedora Linux 44 (KDE Plasma Desktop Edition) x86_64
--CPU: Intel(R) Core(TM) i5-9400 (6) @ 4.10 GHz
--Memory: 15.5GiB
+- OS: Fedora Linux 44 (KDE Plasma Desktop Edition) x86_64
+- CPU: Intel(R) Core(TM) i5-9400 (6) @ 4.10 GHz
+- Memory: 15.5GiB
 
 | size of n      | time needed     |
 | :------------- | ---------------:|
