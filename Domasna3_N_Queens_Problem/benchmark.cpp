@@ -4,6 +4,7 @@
 
 int main()
 {
+    findAllQueen(1);
     int n;
     std::cout << "До која вредност на n да проверува: ";
     std::cin >> n;

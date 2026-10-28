@@ -7,7 +7,7 @@ int main()
     std::cout << "Внеси број: ";
     std::cin >> n;
     int numberOfSolutions = findAllQueen(n);
-    std::cout << "Број на решенија е: " << numberOfSolutions;
+    std::cout << "Број на решенија е: " << numberOfSolutions << "\n";
 
     return 0;
 }
